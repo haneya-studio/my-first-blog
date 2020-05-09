@@ -23,12 +23,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ea#2u1i=7n^6*!gch+i(bdp!f$2z%4@&q#%v7+&)je-7g4&p&5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
-#ALLOWED_HOSTS = []
+DEBUG = True
+ALLOWED_HOSTS = []
 
-DEBUG = False
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'maxcdn.bootstrapcdn.com', 
-                 'junji.pythonanywhere.com']
+#DEBUG = False
+#ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'maxcdn.bootstrapcdn.com', 
+#                 'junji.pythonanywhere.com']
 
 
 # Application definition
@@ -123,4 +123,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATICFILES_DIRS = []
 
