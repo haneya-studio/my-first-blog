@@ -27,7 +27,8 @@ SECRET_KEY = 'ea#2u1i=7n^6*!gch+i(bdp!f$2z%4@&q#%v7+&)je-7g4&p&5'
 #ALLOWED_HOSTS = []
 
 DEBUG = False
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'maxcdn.bootstrapcdn.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'maxcdn.bootstrapcdn.com', 
+                 'junji.pythonanywhere.com']
 
 
 # Application definition
